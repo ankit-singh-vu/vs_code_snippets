@@ -24,7 +24,7 @@
 	"print_r": {
 		"prefix": "pr",
 		"body": [
-			"echo '<pre>';print_r($1); echo '<pre>';",
+			"echo '<pre>';print_r($1); echo '</pre>';",
 		],
 		"description": "print_r"
 	},
@@ -32,7 +32,7 @@
 	"print_d": {
 		"prefix": "pd",
 		"body": [
-			"echo '<pre>';print_r($1); echo '<pre>';die;",
+			"echo '<pre>';print_r($1); echo '</pre>';die;",
 		],
 		"description": "print_r"
 	},
